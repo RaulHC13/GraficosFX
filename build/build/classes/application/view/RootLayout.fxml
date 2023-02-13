@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.RootLayoutController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+            <Menu mnemonicParsing="false" text="File">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Statistics">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#handleshowInitCenter" text="Inicio" />
+              <MenuItem mnemonicParsing="false" onAction="#handleshowInitArea" text="AreaChart" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleshowInitBarChart" text="BarChart" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleShowInitBubbleChart" text="BubbleChart" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleShowInitLineChart" text="LineChart" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleShowInitPieChart" text="PieChart" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleShowInitScatterChart" text="ScatterChart" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+              <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+                <MenuItem mnemonicParsing="false" onAction="#handleShowWebView" text="Manual de usuario - WebView" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleShowWebBrowserView" text="Manual de usuario - Web Browser" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleShowPdfView" text="Manual de usuario - PDF" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

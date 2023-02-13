@@ -51,4 +51,19 @@ public class RootLayoutController {
 	private void handleShowInitScatterChart() {
 		mainApp.initScatterChart();
 	}
+	
+	@FXML
+	private void handleShowWebView() {
+		mainApp.showWebView();
+	}
+	
+	@FXML
+	private void handleShowWebBrowserView() {
+		mainApp.showWebBrowserView();
+	}
+	
+	@FXML
+	private void handleShowPdfView() {
+		mainApp.showPdfView();
+	}
 }

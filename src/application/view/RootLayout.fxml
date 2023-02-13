@@ -27,7 +27,10 @@
           </Menu>
             <Menu mnemonicParsing="false" text="Help">
               <items>
-                <MenuItem mnemonicParsing="false" text="Action 1" />
+                  <MenuItem mnemonicParsing="false" text="About" />
+                <MenuItem mnemonicParsing="false" onAction="#handleShowWebView" text="Manual de usuario - WebView" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleShowWebBrowserView" text="Manual de usuario - Web Browser" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleShowPdfView" text="Manual de usuario - PDF" />
               </items>
             </Menu>
         </menus>

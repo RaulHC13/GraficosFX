@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFX2_charts_statistics_RaulHerreriasCorral.jnlp">
+  <information>
+    <title>JavaFX2_charts_statistics_RaulHerreriasCorral</title>
+    <vendor>application</vendor>
+    <description>GraphsApp</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFX2_charts_statistics_RaulHerreriasCorral.jar" size="21063" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="application.MainApp"  name="GraphsApp" />
+  <update check="background"/>
+</jnlp>
